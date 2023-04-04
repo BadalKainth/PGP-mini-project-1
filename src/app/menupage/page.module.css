@@ -1,0 +1,46 @@
+.MenuPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+}
+
+.Header {
+  font-family: system-ui;
+  font-size: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.HeroImage {
+  width: 100vw;
+}
+
+.MenuCard {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 80%;
+}
+
+.MenuItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.MenuItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 0.8rem;
+}
+
+.title {
+  font-family: system-ui;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #caa15d;
+}

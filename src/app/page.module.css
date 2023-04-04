@@ -1,54 +1,18 @@
 .Home {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
 }
 
 .Background_Img {
   position: absolute;
+  width: 100vw;
   opacity: 50%;
-  width: 393px;
   height: 852px;
   left: 0px;
   top: 0px;
-}
-
-.Guest_btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 19px 36px;
-  gap: 10px;
-  position: absolute;
-  width: 214px;
-  height: 56px;
-  left: 97px;
-  top: 455px;
-  background: #1026f3;
-  border-radius: 8px;
-  border: none;
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-}
-
-.Guest_btn:hover {
-  background: #021bfc;
-}
-
-.Login_link {
-  position: absolute;
-  width: 208px;
-  height: 18px;
-  left: 100px;
-  top: 538px;
-  font-family: "Ubuntu";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
+  z-index: -1;
 }
