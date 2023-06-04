@@ -1,0 +1,38 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.link-list {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+
+.fav-icons {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 0.6rem;
+}
